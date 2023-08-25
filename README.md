@@ -1,6 +1,6 @@
 # demo
 
-### Initialize MySQL repository before starting
+### Initialize MySQL database before starting
 
 ```bash
 create database file_database;
