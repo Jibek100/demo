@@ -42,7 +42,7 @@ public class FileService {
         Integer id = 0;
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i).getFileName().equals(fileName)) {
-                System.out.println(list.get(i));
+                // System.out.println(list.get(i));
                 id = list.get(i).getId();
                 answerList.add(fileRepository.findById(id).get());
             }
