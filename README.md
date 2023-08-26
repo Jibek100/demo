@@ -27,23 +27,3 @@ Run demo application from editor or shell
 ```http://localhost:8080/getinfo```
 
 ```required parameters: String fileName```
-
-3. Логи
-   
-Добавить лог
-
-```Post method```
-
-```http://localhost:8080/addlog```
-
-```required parameters: String content```
-
-Журнал логов
-
-```Post method```
-
-```http://localhost:8080/logs```
-
-```required parameters: No```
-
-
